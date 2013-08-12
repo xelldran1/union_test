@@ -2,3 +2,5 @@
 %project=union_test
 
 table.public.site_user 2013-08-12T23:08:41Z Matt Brennan <matt@petflow.com># Site User table.
+table.public.session [table.public.site_user] 2013-08-12T23:20:52Z Matt Brennan <matt@petflow.com># Session table.
+table.public.pet [table.public.site_user] 2013-08-12T23:21:41Z Matt Brennan <matt@petflow.com># User pets
