@@ -7,3 +7,5 @@ table.public.pet [table.public.site_user] 2013-08-12T23:21:41Z Matt Brennan <mat
 function.public.create_user [table.public.site_user] 2013-08-12T23:22:42Z Matt Brennan <matt@petflow.com># Create site_user function.
 function.public.create_pet [table.public.pet] 2013-08-12T23:23:46Z Matt Brennan <matt@petflow.com># Create a pet function
 table.public.user_profile 2013-08-12T23:25:38Z Matt Brennan <matt@petflow.com># User profile table.
+table.public.address 2013-08-12T23:28:53Z Matt Brennan <matt@petflow.com># Address table.
+table.public.user_address [table.public.site_user table.public.address] 2013-08-12T23:29:30Z Matt Brennan <matt@petflow.com># User address table.
