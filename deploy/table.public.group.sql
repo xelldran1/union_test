@@ -2,6 +2,6 @@
 
 BEGIN;
 
--- XXX Add DDLs here.
+CREATE TABLE group (ID SERIAL PRIMARY KEY, poop TEXT);
 
 COMMIT;
